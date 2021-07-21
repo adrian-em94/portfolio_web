@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/portfolio_web" exact component= {Home} />
+          <Route path="/" exact component= {Home} />
           <Route path="/Projects" component= {Projects} />
           <Route path="/Projects_Sub" component= {Projects_Sub} />
           <Route path="/Portfolio_Project" component= {ARProjSection} />
