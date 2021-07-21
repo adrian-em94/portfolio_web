@@ -6,8 +6,18 @@
 .vb_container {
   margin-top: 4em;
   width: 80%;
+  margin-bottom: 4em;
 }
 
 .vb_container > h2 {
-  line-height: 7rem;
+  line-height: 4rem;
+}
+
+.vb_container > p {
+  line-height: 2rem;
+}
+
+.image_with_caption {
+  display: flex;
+  justify-content: center;
 }

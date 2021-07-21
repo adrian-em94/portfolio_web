@@ -4,11 +4,12 @@ import '../components/ImageItem.css'
 function ImageItem(props) {
     return (   
         <>
-            <li className="image__item">
-                    <figure className="image__item__pic-wrap" data-category={props.label}>
-                        <img src={props.src} alt="n/a" className='image__item__img' />
-                    </figure>
-            </li>
+            <figure className="image__item__pic-wrap">
+                        <img src={props.src} alt={props.alt} className='image__item__img' />
+                        <div className='image__item__info'>
+                            <p className="image__item__text">{props.text}</p>
+                        </div>
+            </figure>
         </>
     )
 }
