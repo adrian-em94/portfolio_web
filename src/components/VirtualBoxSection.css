@@ -1,0 +1,13 @@
+.bg_white {
+  display: flex;
+  justify-content: center;
+}
+
+.vb_container {
+  margin-top: 4em;
+  width: 80%;
+}
+
+.vb_container > h2 {
+  line-height: 7rem;
+}
