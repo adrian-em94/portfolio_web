@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1a8adf24.chunk.css",
-    "main.js": "/static/js/main.68e9c4fa.chunk.js",
-    "main.js.map": "/static/js/main.68e9c4fa.chunk.js.map",
+    "main.js": "/static/js/main.e75e4b08.chunk.js",
+    "main.js.map": "/static/js/main.e75e4b08.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b06a5e6e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b06a5e6e.js.map",
     "static/js/2.218054bd.chunk.js": "/static/js/2.218054bd.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/MemorySize.32515b31.png": "/static/media/MemorySize.32515b31.png",
     "static/media/NameVirtualMachine.9361b87d.png": "/static/media/NameVirtualMachine.9361b87d.png",
     "static/media/SelectISO.682678a2.png": "/static/media/SelectISO.682678a2.png",
+    "static/media/Skill_VM.4d951c60.png": "/static/media/Skill_VM.4d951c60.png",
     "static/media/artic_home.76ac4bbf.png": "/static/media/artic_home.76ac4bbf.png",
     "static/media/email_exists.87780f3b.png": "/static/media/email_exists.87780f3b.png",
     "static/media/logo.e511785d.png": "/static/media/logo.e511785d.png",
@@ -34,6 +35,6 @@
     "static/js/runtime-main.b06a5e6e.js",
     "static/js/2.218054bd.chunk.js",
     "static/css/main.1a8adf24.chunk.css",
-    "static/js/main.68e9c4fa.chunk.js"
+    "static/js/main.e75e4b08.chunk.js"
   ]
 }
