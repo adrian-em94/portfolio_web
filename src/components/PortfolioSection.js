@@ -5,6 +5,7 @@ import '../components/AR_Proj_Section.css'
 import PortfolioHome from '../images/portfolio_home_smart.png'
 import PortfolioProjectsPage from '../images/projects_page.png'
 import PortfolioProjectsFull from '../images/projects_full.png'
+import PortfolioProjectsSkill from '../images/Skill_VM.png'
 import { Link } from 'react-router-dom'
 
 function PortfolioSection() {
@@ -19,8 +20,8 @@ function PortfolioSection() {
                             onClick={()=> window.open(PortfolioProjectsPage, '_blank')}/>
                         <img className='second_img_left' src={PortfolioProjectsFull}  alt='n/a' 
                             onClick={()=> window.open(PortfolioProjectsFull, '_blank')}/>
-                        <img className='second_img_left' src={PortfolioProjectsFull}  alt='n/a' 
-                            onClick={()=> window.open(PortfolioProjectsPage, '_blank')}/>  
+                        <img className='second_img_left' src={PortfolioProjectsSkill}  alt='n/a' 
+                            onClick={()=> window.open(PortfolioProjectsSkill, '_blank')}/>  
                     </div>
                     <div className="right_split">
                         <h1>Portfolio Website - React</h1>
@@ -32,7 +33,7 @@ function PortfolioSection() {
                             <li>Contact Information</li>
                             <li>Social Profiles: LinkedIn & GitHub</li>
                             <li>
-                                <Link to={{ pathname: 'https://github.com/' }} target='_blank'>GitHub</Link>
+                                <Link to={{ pathname: 'https://github.com/adrian-em94/portfolio_web' }} target='_blank'>GitHub</Link>
                             </li>
                         </ul> 
                     </div> 
