@@ -1,6 +1,6 @@
 .home-container {
   background: url("../images/tech-home.jpg") center center/cover no-repeat;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,8 @@
 
 .home-container > h1 {
   color: #000;
-  font-size: 5rem;
-  margin-top: -1em;
+  font-size: 4.5rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -33,7 +33,6 @@
 @media screen and (max-width: 60rem) {
   .home-container > h1 {
     font-size: 4rem;
-    margin-top: -2.5em;
   }
 
   .home-container > p {
@@ -42,9 +41,26 @@
 }
 
 @media screen and (max-width: 48rem) {
+  .home-container {
+    height: 70vh;
+  }
+
+  .home-container > h1 {
+    font-size: 3rem;
+  }
+
+  .home-container > p {
+    font-size: 1.275rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-container {
+    height: 70vh;
+  }
+
   .home-container > h1 {
     font-size: 2.5rem;
-    margin-top: -5.5em;
   }
 
   .home-container > p {
