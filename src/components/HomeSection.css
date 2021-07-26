@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .home-container {
   background: url("../images/tech-home.jpg") center center/cover no-repeat;
   height: 85vh;

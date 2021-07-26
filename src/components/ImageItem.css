@@ -2,6 +2,10 @@
   --var--accent-color: rgb(238, 108, 77);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .image__item__pic-wrap {
   display: flex;
   flex-direction: column;

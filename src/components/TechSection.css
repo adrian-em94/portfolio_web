@@ -3,6 +3,10 @@
   --shade: rgb(51, 76, 107);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .tech_container {
   background-color: var(--primary-less-dark);
   display: flex;

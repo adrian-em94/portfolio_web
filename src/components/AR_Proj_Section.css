@@ -2,6 +2,10 @@
   --primary-light-blue: rgb(224, 251, 252);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .leftFace_container {
   width: min(80%, 2080px);
   margin-inline: auto;

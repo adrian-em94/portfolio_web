@@ -39,6 +39,10 @@ section {
   padding: 2rem 0rem;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .bg__secondary {
   background-color: var(--primary-less-dark);
 }

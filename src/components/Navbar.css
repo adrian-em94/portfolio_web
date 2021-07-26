@@ -2,6 +2,10 @@
   --primary-dark: rgb(21, 26, 34);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   background-color: var(--primary-dark);
   height: 80px;
