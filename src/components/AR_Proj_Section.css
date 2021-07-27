@@ -63,6 +63,10 @@
   .leftFace_container {
     width: 90%;
   }
+
+  .left_img_split {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1229px) {
