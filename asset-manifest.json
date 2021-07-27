@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4870b445.chunk.css",
-    "main.js": "/static/js/main.7319be07.chunk.js",
-    "main.js.map": "/static/js/main.7319be07.chunk.js.map",
+    "main.css": "/static/css/main.e3ee04fc.chunk.css",
+    "main.js": "/static/js/main.5d7c3b23.chunk.js",
+    "main.js.map": "/static/js/main.5d7c3b23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b06a5e6e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b06a5e6e.js.map",
     "static/js/2.218054bd.chunk.js": "/static/js/2.218054bd.chunk.js",
     "static/js/2.218054bd.chunk.js.map": "/static/js/2.218054bd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4870b445.chunk.css.map": "/static/css/main.4870b445.chunk.css.map",
+    "static/css/main.e3ee04fc.chunk.css.map": "/static/css/main.e3ee04fc.chunk.css.map",
     "static/js/2.218054bd.chunk.js.LICENSE.txt": "/static/js/2.218054bd.chunk.js.LICENSE.txt",
     "static/media/Dynamic_HardDisk.5080701d.png": "/static/media/Dynamic_HardDisk.5080701d.png",
     "static/media/HardDisk.5f5da108.png": "/static/media/HardDisk.5f5da108.png",
@@ -17,16 +17,15 @@
     "static/media/MemorySize.32515b31.png": "/static/media/MemorySize.32515b31.png",
     "static/media/NameVirtualMachine.9361b87d.png": "/static/media/NameVirtualMachine.9361b87d.png",
     "static/media/SelectISO.682678a2.png": "/static/media/SelectISO.682678a2.png",
-    "static/media/Skill_VM.4d951c60.png": "/static/media/Skill_VM.4d951c60.png",
+    "static/media/Skill_VM.6c24df67.png": "/static/media/Skill_VM.6c24df67.png",
     "static/media/artic_home.d48a0c14.png": "/static/media/artic_home.d48a0c14.png",
     "static/media/email_exists.527aafb0.png": "/static/media/email_exists.527aafb0.png",
     "static/media/logo.e511785d.png": "/static/media/logo.e511785d.png",
     "static/media/microsoftad-logo.fed3f449.svg": "/static/media/microsoftad-logo.fed3f449.svg",
     "static/media/occupied_stall_result_smart.2d1d6678.png": "/static/media/occupied_stall_result_smart.2d1d6678.png",
-    "static/media/portfolio_home.c283370d.png": "/static/media/portfolio_home.c283370d.png",
-    "static/media/portfolio_home_smart.170d12f0.png": "/static/media/portfolio_home_smart.170d12f0.png",
-    "static/media/projects_full.6832d1e7.png": "/static/media/projects_full.6832d1e7.png",
-    "static/media/projects_page.32d7bab4.png": "/static/media/projects_page.32d7bab4.png",
+    "static/media/portfolio_home.dc4b0782.png": "/static/media/portfolio_home.dc4b0782.png",
+    "static/media/projects_full.9b191416.png": "/static/media/projects_full.9b191416.png",
+    "static/media/projects_page.b8c03090.png": "/static/media/projects_page.b8c03090.png",
     "static/media/proof_of_initialization.8b89a0cf.png": "/static/media/proof_of_initialization.8b89a0cf.png",
     "static/media/HomeSection.css": "/static/media/tech-home.bf47c3b1.jpg",
     "static/media/virtualbox-icon.e3333a89.svg": "/static/media/virtualbox-icon.e3333a89.svg"
@@ -34,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.b06a5e6e.js",
     "static/js/2.218054bd.chunk.js",
-    "static/css/main.4870b445.chunk.css",
-    "static/js/main.7319be07.chunk.js"
+    "static/css/main.e3ee04fc.chunk.css",
+    "static/js/main.5d7c3b23.chunk.js"
   ]
 }
