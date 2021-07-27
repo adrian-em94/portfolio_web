@@ -46,7 +46,7 @@ function AR_Proj_Section() {
                         src={ArtOcc} 
                         alt='Error popup that explains the form submission is invalid because the parking spot is already occupied'
                         onClick={()=> window.open(ArtOcc, '_blank')} />
-                    <p>Artic App Home Page</p>   
+                    <p>Form Validation Example</p>   
                 </div>
                 <div className='ImageContainer'>
                     <img className='first_img_right'
