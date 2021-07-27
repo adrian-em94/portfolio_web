@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Projects_Sub from './components/pages/Projects_Sub';
-import ARProjSection from './components/ARProjSection';
+import ARProjSection from './components/Projects_Sub/ARProjSection';
 import Skills from './components/pages/Skills';
 import VirtualBox from './components/pages/VirtualBox';
 
