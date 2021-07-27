@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom'
 
 function AR_Proj_Section() {
     return (
-    <section class="bg__primary">
+    <section className="bg__primary">
         <div className='leftFace_container'>
-            <div class='left_split'>
+            <div className='left_split'>
                 <h1>Artic App - Python - Kivy </h1>
                 <hr className='hr_marTop'/>
                 <h2 className='margin_drop'>Features:</h2>
-                <ul class='left_ul'>
+                <ul className='left_ul'>
                     <li>Check parking lot status</li>
                     <li>Submit parking form to reserve parking spot</li>
                     <li>Error checking in user input parking form</li>
