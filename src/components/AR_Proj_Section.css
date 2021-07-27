@@ -1,5 +1,5 @@
 :root {
-  --primary-light-blue: rgb(224, 251, 252);
+  --primary-light-blue: #fff;
 }
 
 * {
@@ -10,19 +10,19 @@
   width: min(80%, 2080px);
   margin-inline: auto;
   display: flex;
-  padding-bottom: 3em;
-  height: 100vh;
+  min-height: fit-content;
   flex-direction: row;
   margin-top: 3em;
+  margin-bottom: 3em;
+  padding-bottom: 80px;
 }
 
 .left_img_split {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-basis: 100%;
-  background-color: aqua;
 }
 
 .left_split {
@@ -43,53 +43,41 @@
   margin-top: 1rem;
 }
 
-.l_split > * + * {
-  margin-left: 2em;
-}
-
-section {
-  padding: 2rem 0rem;
-}
-
 .bg__primary {
   background-color: var(--primary-light-blue);
 }
 
 .first_img_right {
   margin-left: 1em;
-  margin-bottom: 1em;
-  width: 35%;
-  height: 35%;
+  width: 40%;
+  min-width: 250px;
+  max-width: 100%;
+  height: auto;
 }
 
 .first_img_right:hover {
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 1200px) {
-  .l_split {
+@media screen and (max-width: 1329px) {
+  .leftFace_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .leftFace_container {
+    width: min(80%, 2080px);
     flex-direction: column;
     margin-top: 2em;
   }
 
   .left_img_split {
-    margin-top: 3em;
-    width: 100%;
-    margin-inline: auto;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .left_img_split {
-    flex-direction: column;
-  }
-
-  .l_split > * + * {
-    margin-left: 7%;
+    margin-top: 2em;
   }
 
   .first_img_right {
-    width: 80%;
-    height: auto;
+    min-width: 265px;
+    min-height: 200px;
   }
 }
