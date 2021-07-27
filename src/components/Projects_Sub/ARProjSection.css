@@ -26,6 +26,7 @@
 }
 
 .left_split {
+  padding-right: 3em;
   text-align: left;
   flex-basis: 100%;
 }
