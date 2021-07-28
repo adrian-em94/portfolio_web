@@ -1,0 +1,39 @@
+:root {
+  --primary-dark: rgb(41, 50, 65);
+}
+
+.footer_container {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.content {
+  margin-left: 2em;
+  padding-top: 2em;
+  line-height: 2rem;
+  padding-bottom: 2em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  color: #fff;
+}
+
+.a_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.soc_link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2em;
+}
