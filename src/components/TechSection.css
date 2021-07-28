@@ -17,6 +17,10 @@
   padding-bottom: 4em;
 }
 
+.smaller_tech_heading {
+  text-align: center;
+}
+
 .tech_heading {
   text-align: center;
 }
@@ -28,7 +32,9 @@
 }
 
 .list_indent {
+  margin-top: 1rem;
   margin-left: 2rem;
+  line-height: 1.5rem;
 }
 
 .mini_container {
