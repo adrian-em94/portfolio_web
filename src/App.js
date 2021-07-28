@@ -8,6 +8,8 @@ import Projects_Sub from './components/pages/Projects_Sub';
 import ARProjSection from './components/Projects_Sub/ARProjSection';
 import Skills from './components/pages/Skills';
 import VirtualBox from './components/pages/VirtualBox';
+import Footer from './components/Footer';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
           <Route path="/Portfolio_Project" component= {ARProjSection} />
           <Route path="/Skills" component= {Skills} />
           <Route path="/VirtualBox" component= {VirtualBox} />
+          <Route path="/Contact" component= {Contact} />
         </Switch>
+        <Footer />
       </Router>
       
     </>
