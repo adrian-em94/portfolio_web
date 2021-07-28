@@ -1,0 +1,33 @@
+.outercontainer {
+  background: url("../../images/cool-background.png") center center/cover
+    no-repeat;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.innercontainer {
+  justify-content: center;
+  display: flex;
+  flex-basis: 80%;
+  height: 80vh;
+}
+
+.leftForm {
+  background-color: aqua;
+  flex-basis: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.rightForm {
+  background-color: chocolate;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
