@@ -40,6 +40,11 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="/Contact" className="nav-links" onClick={closeMobileMenu}>
+                                Contact
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to={{ pathname: 'https://www.linkedin.com/in/adrian-martin-0906a4bb/' }} target="_blank" className="nav-links" onClick={closeMobileMenu} rel="noreferrer">
                                 <FaLinkedin  size="2em"/>
                             </Link>
