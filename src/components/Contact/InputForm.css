@@ -1,0 +1,20 @@
+Form {
+  width: 50%;
+}
+
+.formslots {
+  margin-top: 1em;
+}
+
+.formtextarea {
+  height: 200px;
+}
+
+.submit-btn {
+  margin-top: 2em;
+  color: #fff;
+  padding: 1em;
+  background-color: var(--darkblue);
+  width: 100%;
+  border-radius: 1em;
+}
