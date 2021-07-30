@@ -1,18 +1,35 @@
 import React from 'react'
-import Form from './Form'
+import InputForm from './InputForm'
 import './ContactSection.css'
+import { FaEnvelope, FaSms } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
-function ContactSection() {
-    return (
+
+const ContactSection = () => {
+    return (    
         <div className="outercontainer">
             <div className='innercontainer'>
                 <div className='leftForm'>
-                    <h1>Hoot Hoot!</h1>
-                    <p>Where is everyone!!</p>
+                    <section>
+                        <h1>Reach Out</h1>
+                        <div className='contact_grouping'>
+                            <FaEnvelope size='2em'/>
+                            <p>adrianmartin2394@gmail.com</p>
+                        </div>
+                        <div className='contact_grouping'>
+                            <FaSms size='2em'/>
+                            <p>+1-714-261-5490</p>
+                        </div>
+                        <Link className='btn-cv' to="/files/AdrianMartinCV.pdf" target="_blank" download>
+                            Download CV
+                        </Link>  
+                    </section>
                 </div>
                 <div className='rightForm'>
-                    <h1>Contact</h1>
-                    <Form />
+                    <section>
+                        <h1 style={{marginBottom: '1em'}}>Contact</h1>
+                        <InputForm /> 
+                    </section>
                 </div>
                 
             </div>
