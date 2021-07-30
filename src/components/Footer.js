@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer_container'>
             <div className='content'>
                 <h3>Adrian</h3>
-                <h4>Tech Support & Front End Developer</h4>
+                <h5>Tech Support & Front End Developer</h5>
                 <div className="links">
                     <Link className='a_link' to="/Projects">
                         Projects
