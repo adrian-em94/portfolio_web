@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
 }
 
 .home-container {
@@ -19,6 +20,7 @@
   font-size: 4.5rem;
   margin-top: 1rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .home-container > p {
