@@ -19,11 +19,13 @@
 
 .smaller_tech_heading {
   text-align: center;
+  margin-top: 0.5em;
+  font-weight: bolder;
 }
 
 .tech_heading {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main_container {

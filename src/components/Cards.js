@@ -7,7 +7,7 @@ import ADPic from '../images/microsoftad-logo.svg'
 function Cards() {
     return (
         <div className="cards">
-            <h1 style={{fontWeight: 'bold'}}>Check out my Projects and Skills!</h1>
+            <h1 style={{fontWeight: 'bolder'}}>Check out my Projects and Skills!</h1>
             <div className='cards__container'>
                 <div className="cards__wrapper">
                     <ul className="cards__items">

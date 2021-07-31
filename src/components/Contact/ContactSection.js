@@ -11,7 +11,7 @@ const ContactSection = () => {
             <div className='innercontainer'>
                 <div className='leftForm'>
                     <section>
-                        <h1>Reach Out</h1>
+                        <h1 style={{fontWeight: 'bolder'}}>Reach Out</h1>
                         <div className='contact_grouping'>
                             <FaEnvelope size='2em'/>
                             <p>adrianmartin2394@gmail.com</p>
@@ -27,7 +27,7 @@ const ContactSection = () => {
                 </div>
                 <div className='rightForm'>
                     <section>
-                        <h1 style={{marginBottom: '1em'}}>Contact</h1>
+                        <h1 style={{marginBottom: '1em', fontWeight: 'bolder'}}>Contact</h1>
                         <InputForm /> 
                     </section>
                 </div>

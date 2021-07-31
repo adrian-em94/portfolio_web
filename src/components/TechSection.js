@@ -8,7 +8,7 @@ function TechSection() {
             <h2 className='tech_heading'>Technologies</h2>
             <div className='main_container'>
                 <div className="mini_container">
-                    <h3 className='smaller_tech_heading'>Front-End</h3>
+                    <h4 className='smaller_tech_heading'>Front-End</h4>
                         <ul className='list_indent'>
                             <li>React</li>
                             <li>HTML</li>
@@ -16,7 +16,7 @@ function TechSection() {
                         </ul>
                 </div>
                 <div className="mini_container">
-                    <h3 className='smaller_tech_heading'>Back-End</h3>
+                    <h4 className='smaller_tech_heading'>Back-End</h4>
                     <ul className='list_indent'>
                         <li>JavaScript</li>
                         <li>Python</li>
