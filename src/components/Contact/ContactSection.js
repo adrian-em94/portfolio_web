@@ -29,7 +29,6 @@ const ContactSection = () => {
                     <section>
                         <h1 style={{marginBottom: '1em', fontWeight: 'bolder'}}>Contact</h1>
                         <InputForm />
-                        <input type='button' value='Submit'/> 
                     </section>
                 </div>
                 
