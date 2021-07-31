@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fde8af6.chunk.css",
-    "main.js": "/static/js/main.782c3c12.chunk.js",
-    "main.js.map": "/static/js/main.782c3c12.chunk.js.map",
+    "main.css": "/static/css/main.759f6619.chunk.css",
+    "main.js": "/static/js/main.422a3bde.chunk.js",
+    "main.js.map": "/static/js/main.422a3bde.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b06a5e6e.js",
     "runtime-main.js.map": "/static/js/runtime-main.b06a5e6e.js.map",
-    "static/js/2.1d61fc02.chunk.js": "/static/js/2.1d61fc02.chunk.js",
-    "static/js/2.1d61fc02.chunk.js.map": "/static/js/2.1d61fc02.chunk.js.map",
+    "static/css/2.d3f8188c.chunk.css": "/static/css/2.d3f8188c.chunk.css",
+    "static/js/2.ccfd64e6.chunk.js": "/static/js/2.ccfd64e6.chunk.js",
+    "static/js/2.ccfd64e6.chunk.js.map": "/static/js/2.ccfd64e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6fde8af6.chunk.css.map": "/static/css/main.6fde8af6.chunk.css.map",
-    "static/js/2.1d61fc02.chunk.js.LICENSE.txt": "/static/js/2.1d61fc02.chunk.js.LICENSE.txt",
+    "static/css/2.d3f8188c.chunk.css.map": "/static/css/2.d3f8188c.chunk.css.map",
+    "static/css/main.759f6619.chunk.css.map": "/static/css/main.759f6619.chunk.css.map",
+    "static/js/2.ccfd64e6.chunk.js.LICENSE.txt": "/static/js/2.ccfd64e6.chunk.js.LICENSE.txt",
     "static/media/Dynamic_HardDisk.5080701d.png": "/static/media/Dynamic_HardDisk.5080701d.png",
     "static/media/HardDisk.5f5da108.png": "/static/media/HardDisk.5f5da108.png",
     "static/media/HardDisk_Size.1cf3e365.png": "/static/media/HardDisk_Size.1cf3e365.png",
@@ -20,7 +22,6 @@
     "static/media/Skill_VM.6c24df67.png": "/static/media/Skill_VM.6c24df67.png",
     "static/media/artic_home.d48a0c14.png": "/static/media/artic_home.d48a0c14.png",
     "static/media/email_exists.527aafb0.png": "/static/media/email_exists.527aafb0.png",
-    "static/media/logo.e511785d.png": "/static/media/logo.e511785d.png",
     "static/media/microsoftad-logo.fed3f449.svg": "/static/media/microsoftad-logo.fed3f449.svg",
     "static/media/occupied_stall_result_smart.2d1d6678.png": "/static/media/occupied_stall_result_smart.2d1d6678.png",
     "static/media/portfolio_home.dc4b0782.png": "/static/media/portfolio_home.dc4b0782.png",
@@ -32,8 +33,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b06a5e6e.js",
-    "static/js/2.1d61fc02.chunk.js",
-    "static/css/main.6fde8af6.chunk.css",
-    "static/js/main.782c3c12.chunk.js"
+    "static/css/2.d3f8188c.chunk.css",
+    "static/js/2.ccfd64e6.chunk.js",
+    "static/css/main.759f6619.chunk.css",
+    "static/js/main.422a3bde.chunk.js"
   ]
 }
