@@ -1,20 +1,23 @@
-Form {
-  width: 50%;
+:root {
+  --darkblue: rgb(41, 50, 65);
 }
-
-.formslots {
-  margin-top: 1em;
-}
-
-.formtextarea {
-  height: 200px;
+form {
+  width: 100%;
 }
 
 .submit-btn {
-  margin-top: 2em;
+  margin-top: 0.5em;
   color: #fff;
   padding: 1em;
   background-color: var(--darkblue);
   width: 100%;
+  border: #fff 2px solid;
   border-radius: 1em;
+}
+
+.submit-btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: #000 2px solid;
+  transition: all 0.3s ease-out;
 }
