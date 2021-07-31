@@ -14,7 +14,7 @@
   justify-content: center;
   display: flex;
   flex-basis: 80%;
-  height: 80vh;
+  height: fit-content;
 }
 
 .leftForm {
@@ -91,4 +91,38 @@
   border: var(--darkblue) 2px solid;
   border-radius: 2em;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .leftForm > section {
+    width: 90%;
+  }
+
+  .rightForm > section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .leftForm > section {
+    width: 95%;
+  }
+
+  .rightForm > section {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .innercontainer {
+    flex-direction: column;
+  }
+
+  .leftForm > section {
+    width: 80%;
+  }
+
+  .rightForm > section {
+    width: 80%;
+  }
 }

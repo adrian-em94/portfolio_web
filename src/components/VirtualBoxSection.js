@@ -15,23 +15,23 @@ function VirtualBoxSection() {
             <div className='vb_container'>
                 <h1>Creating a Windows 10 Virtual Machine w/ Virtual Box</h1>
                 
-                <h2>Download the Windows media creation tool</h2>
+                <h3>Download the Windows media creation tool</h3>
                 
                 <p>The Windows media creation tool can be found on the microsoft website 
                     and is necessary to download the iso file for the virtual machine
                 </p>
                 
-                <h2>Get the iso from the media creation tool</h2>
+                <h3>Get the iso from the media creation tool</h3>
                 
                 <p>Once the media creation tool has been downloaded locate the iso file
                     for Windows 10
                 </p>
                 
-                <h2>Download & Install Oracle's Virtual Box</h2>
+                <h3>Download & Install Oracle's Virtual Box</h3>
                 
                 <p>Virtual Box can be found for free on the Oracle website</p>
                 
-                <h2>Open Virtual Box and click New</h2>
+                <h3>Open Virtual Box and click New</h3>
 
                 <p>The next screen will prompt the user to name the virtual machine
                     and choosing the destination along with the operating system and version.
@@ -85,7 +85,7 @@ function VirtualBoxSection() {
                     />
                 </div>
                 
-                <h2>Choose the file location and size</h2>
+                <h3>Choose the file location and size</h3>
                 
                 <div className='image_with_caption'>
                     <ImageItem
@@ -97,11 +97,11 @@ function VirtualBoxSection() {
 
                 <p>Click Create</p>
 
-                <h2>Now to start the virtual machine</h2>
+                <h3>Now to start the virtual machine</h3>
 
                 <p>Click start on the newly created virtual machine</p>
 
-                <h2>Select the iso location</h2>
+                <h3>Select the iso location</h3>
 
                 <div className='image_with_caption'>
                     <ImageItem
