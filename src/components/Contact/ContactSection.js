@@ -28,7 +28,8 @@ const ContactSection = () => {
                 <div className='rightForm'>
                     <section>
                         <h1 style={{marginBottom: '1em', fontWeight: 'bolder'}}>Contact</h1>
-                        <InputForm /> 
+                        <InputForm />
+                        <input type='button' value='Submit'/> 
                     </section>
                 </div>
                 
