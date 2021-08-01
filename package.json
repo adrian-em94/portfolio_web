@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.16.9",
     "bootstrap": "^5.0.0-alpha3",
+    "emailjs-com": "^3.2.0",
     "file-loader": "^6.2.0",
     "immer": "^8.0.1",
     "particlesjs": "^2.2.3",
