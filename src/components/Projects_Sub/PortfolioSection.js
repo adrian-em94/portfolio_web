@@ -45,11 +45,12 @@ function PortfolioSection() {
                 <div className="right_split">
                     <h1>Portfolio Website - React</h1>
                     <hr className='hr_marTop'/>
-                    <h2 className='margin_drop'>Features:</h2>
+                    <h3 className='margin_drop'>Features:</h3>
                     <ul className='right_ul'>
                         <li>Explore working projects</li>
                         <li>Step by Step demonstration of learned skills</li>
-                        <li>Contact Information</li>
+                        <li>Contact Information w/ Form Submission</li>
+                        <li>EmailJs: sends message directly to email</li>
                         <li>Social Profiles: LinkedIn & GitHub</li>
                         <li>
                             <Link to={{ pathname: 'https://github.com/adrian-em94/portfolio_web' }} target='_blank'>GitHub</Link>
