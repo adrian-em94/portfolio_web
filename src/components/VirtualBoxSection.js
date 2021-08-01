@@ -8,6 +8,7 @@ import VMHardSize from '../images/HardDisk_Size.png'
 import IsoLocation from '../images/SelectISO.png'
 import '../components/VirtualBoxSection.css'
 import ImageItem from './ImageItem'
+import Option2 from '../images/Option2.png'
 
 function VirtualBoxSection() {
     return (
@@ -15,13 +16,13 @@ function VirtualBoxSection() {
             <div className='vb_container'>
                 <h1>Creating a Windows 10 Virtual Machine w/ Virtual Box</h1>
                 
-                <h3>Download the Windows media creation tool</h3>
+                <h4>Download the Windows media creation tool</h4>
                 
                 <p>The Windows media creation tool can be found on the microsoft website 
                     and is necessary to download the iso file for the virtual machine
                 </p>
                 
-                <h3>Get the iso from the media creation tool</h3>
+                <h4>Get the iso from the media creation tool</h4>
                 
                 <p>Once the media creation tool has been downloaded locate the iso file
                     for Windows 10
@@ -31,7 +32,7 @@ function VirtualBoxSection() {
                 
                 <p>Virtual Box can be found for free on the Oracle website</p>
                 
-                <h3>Open Virtual Box and click New</h3>
+                <h4>Open Virtual Box and click New</h4>
 
                 <p>The next screen will prompt the user to name the virtual machine
                     and choosing the destination along with the operating system and version.
@@ -45,7 +46,7 @@ function VirtualBoxSection() {
                     />
                 </div>
                 
-                <h2>Choosing memory size</h2>
+                <h4>Choosing memory size</h4>
 
                 <div className='image_with_caption'>
                     <ImageItem
@@ -97,11 +98,18 @@ function VirtualBoxSection() {
 
                 <p>Click Create</p>
 
-                <h3>Now to start the virtual machine</h3>
+                <h4>Now to start the virtual machine</h4>
 
-                <p>Click start on the newly created virtual machine</p>
+                <p>Highlight the virtual machine in VirtualBox 
+                    <br />Click start on the newly created virtual machine</p>
 
-                <h3>Select the iso location</h3>
+                <h4>Select the iso location</h4>
+                <h4>Option 1:</h4>
+
+                <p>After hitting the start button a prompt should appear to choose the location of the iso.
+                    <br />If it doesnt, go to option 2.
+                    <br />Navigate to the ISO file
+                </p>
 
                 <div className='image_with_caption'>
                     <ImageItem
@@ -110,7 +118,33 @@ function VirtualBoxSection() {
                         alt='A prompt that asks the user select the location of the iso file'
                     />
                 </div>
+
+                <h4>Option 2:</h4>
+
+                <p>Highlight the virtual machine in virtual box
+                <br />Click Settings {">"} Storage
+                </p>
                 
+                <div className='image_with_caption'>
+                    <ImageItem
+                        src={Option2}
+                        text="Virtual Box VM Settings"
+                        alt='Virtal Box Settings'
+                    />
+                </div>
+
+                <p>
+                    <br />Highlight the Empty Disk
+                    <br />Then Click the disk to the right of 'Optical Drive'
+                    <br />Navigate to the ISO file then click OK
+                </p>
+
+                <h4>Now to start the virtual machine</h4>
+
+                <p>Highlight the virtual machine in VirtualBox 
+                    <br />Click start on the newly created virtual machine</p>
+                
+                <h4>Windows Setup</h4>
                 <p>Accept the license terms and go through the regular windows setup to complete
                     and use the virtual machine for Windows 10
                 </p>
