@@ -10,9 +10,9 @@ function HomeSection() {
             Front-End Developer</h1>
             <p>What are you waiting for?</p>
             <div className='home_btns'>
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-                    Contact Me
-                </Button>
+                    <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+                        Contact Me
+                    </Button>
             </div>
         </div>
     )
