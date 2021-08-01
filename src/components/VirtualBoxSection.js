@@ -9,10 +9,20 @@ import IsoLocation from '../images/SelectISO.png'
 import '../components/VirtualBoxSection.css'
 import ImageItem from './ImageItem'
 
+
+function addingInfo(heading, text, ImageObject) {
+    <div>
+        <h2>{heading}</h2>
+        <p>{text}</p>
+        {ImageObject}
+    </div>
+}
+
+
 function VirtualBoxSection() {
     return (
         <div className="bg_white">
-            <div className='vb_container'>
+            <div className='template_container'>
                 <h1>Creating a Windows 10 Virtual Machine w/ Virtual Box</h1>
                 
                 <h3>Download the Windows media creation tool</h3>
