@@ -22,7 +22,7 @@ function SkillSection() {
                             src={ADPic}
                             text="Active Directory Domain Services"
                             label="AD"
-                            path='/ADDS'
+                            path='/ActiveDirectory'
                         />
                     </ul>
                 </div>
