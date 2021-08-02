@@ -9,7 +9,7 @@
 .image__item__pic-wrap {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: min(70%, 700px);
   height: auto;
   border: 2px solid var(--var--accent-color);
   border-radius: 0.625em;
