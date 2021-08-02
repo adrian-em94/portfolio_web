@@ -38,7 +38,7 @@ function VirtualBoxSection() {
                     for Windows 10
                 </p>
                 
-                <h3>Download & Install Oracle's Virtual Box</h3>
+                <h4>Download & Install Oracle's Virtual Box</h4>
                 
                 <p>Virtual Box can be found for free on the Oracle website</p>
                 
@@ -96,7 +96,7 @@ function VirtualBoxSection() {
                     />
                 </div>
                 
-                <h3>Choose the file location and size</h3>
+                <h4>Choose the file location and size</h4>
                 
                 <div className='image_with_caption'>
                     <ImageItem
