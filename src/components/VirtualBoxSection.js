@@ -11,20 +11,31 @@ import ImageItem from './ImageItem'
 import Option2 from '../images/Option2.png'
 
 
-const addingInfo = (heading, text, ImageObject, ImageSrc, ImageText, ImageAlt) => {
+const addingInfo = (heading, text, ImageSrc, ImageText, ImageAlt) => {
     return (
-        <div>
+        <>
             <h4>{heading}</h4>
             <p>{text}</p>
             <div className='image_with_caption'>
                 <ImageItem src={ImageSrc} text={ImageText} alt={ImageAlt}/>
-            </div> 
-        </div>
+            </div>
+        </> 
     )
 }
 
-
-function VirtualBoxSection() {
+const VirtualBoxSection = () => {
+    const InitialSetup = addingInfo("Open Virtual Box and click New", 
+                                    "The next screen will prompt the user to name the virtual machine "+ 
+                                    "and choose the destination along with the operating system and version", 
+                                    VMName, 
+                                    "Name the Virtual Machine", 
+                                    "A prompt askign the user to name the virtual machine and choose the destiantion and version")
+    
+    const MemorySize = addingInfo("Choosing memory size", 
+                                    "It is recommended to choose at least 4 GB of memory size", 
+                                    VMMemorySize, 
+                                    "Choose desired memory size", 
+                                    "A prompt asking the user to choose the memory size for the virtual machine")
     return (
         <div className="bg_white">
             <div className='template_container'>
@@ -46,29 +57,8 @@ function VirtualBoxSection() {
                 
                 <p>Virtual Box can be found for free on the Oracle website</p>
                 
-                <h4>Open Virtual Box and click New</h4>
-
-                <p>The next screen will prompt the user to name the virtual machine
-                    and choosing the destination along with the operating system and version.
-                </p>
-
-                <div className='image_with_caption'>
-                    <ImageItem
-                        src={VMName}
-                        text="Name the Virtual Machine"
-                        alt='A prompt askign the user to name the virtual machine and choose the destiantion and version'
-                    />
-                </div>
-                
-                <h4>Choosing memory size</h4>
-
-                <div className='image_with_caption'>
-                    <ImageItem
-                        src={VMMemorySize}
-                        text="Choose desired memory size"
-                        alt='A prompt asking the user to choose the memory size for the virtual machine'
-                    />
-                </div>
+                {InitialSetup}
+                {MemorySize}
                 
                 <p>Click radio button "<strong>Create a virtual hard disk now</strong>"</p>
 
