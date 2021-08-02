@@ -11,12 +11,16 @@ import ImageItem from './ImageItem'
 import Option2 from '../images/Option2.png'
 
 
-function addingInfo(heading, text, ImageObject) {
-    <div>
-        <h2>{heading}</h2>
-        <p>{text}</p>
-        {ImageObject}
-    </div>
+const addingInfo = (heading, text, ImageObject, ImageSrc, ImageText, ImageAlt) => {
+    return (
+        <div>
+            <h4>{heading}</h4>
+            <p>{text}</p>
+            <div className='image_with_caption'>
+                <ImageItem src={ImageSrc} text={ImageText} alt={ImageAlt}/>
+            </div> 
+        </div>
+    )
 }
 
 
