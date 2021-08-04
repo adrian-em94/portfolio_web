@@ -1,8 +1,22 @@
 :root {
   --darkblue: rgb(41, 50, 65);
 }
+
 form {
   width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  margin-right: 10em;
+}
+
+.ErrorMessages {
+  font-size: 0.75rem;
+  color: red;
+  padding-bottom: 0.5rem;
+  margin-top: -0.5rem;
+  font-weight: bolder;
 }
 
 .submit-btn {
