@@ -26,10 +26,22 @@
   color: #fff;
 }
 
+.smaller_icons {
+  display: flex;
+}
+
 .socials {
   margin-top: 2em;
   display: flex;
   flex-direction: row;
+}
+
+.attributions {
+  width: 100%;
+  text-align: end;
+  margin-right: 2em;
+  font-size: 0.75rem;
+  padding-top: 1.5em;
 }
 
 .soc_link {
