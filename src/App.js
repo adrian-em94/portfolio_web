@@ -11,6 +11,8 @@ import VirtualBox from './components/pages/VirtualBox';
 import Footer from './components/Footer';
 import Contact from './components/pages/Contact';
 import ActiveDirectory from './components/pages/ActiveDirectory'
+import ADAccountCreation from './components/pages/ADAccountCreation';
+import Lab from './components/pages/Lab';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/VirtualBox" component= {VirtualBox} />
           <Route path='/ActiveDirectory' component={ActiveDirectory} />
           <Route path="/Contact" component= {Contact} />
+          <Route path="/ADAccountCreation" component={ADAccountCreation} />
+          <Route path="/Lab" component={Lab} />
         </Switch>
         <Footer />
       </Router>
