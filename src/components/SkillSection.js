@@ -3,6 +3,7 @@ import CardItem from './CardItem'
 import './Cards.css'
 import VBox from '../images/virtualbox-icon.svg'
 import ADPic from '../images/microsoftad-logo.svg'
+import AddUser from '../images/AddUser.png'
 
 function SkillSection() {
 
@@ -24,6 +25,21 @@ function SkillSection() {
                             label="AD"
                             path='/ActiveDirectory'
                         />
+                        <CardItem
+                            src={AddUser}
+                            text="Active Directory Account Creation"
+                            label="Add User"
+                            path='/ADAccountCreation'
+                        />
+                    </ul>
+                </div>
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
+                        <CardItem
+                            src={VBox}
+                            text="Lab Environment w/ VirtualBox Windows Server on MAC"
+                            label="Lab"
+                            path='/Lab'/>
                     </ul>
                 </div>
             </div>

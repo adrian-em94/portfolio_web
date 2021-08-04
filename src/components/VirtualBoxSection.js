@@ -23,9 +23,10 @@ const addingInfo = (heading, text, ImageSrc, ImageText, ImageAlt) => {
     )
 }
 
+
 const VirtualBoxSection = () => {
     const InitialSetup = addingInfo("Open Virtual Box and click New", 
-                                    "The next screen will prompt the user to name the virtual machine "+ 
+                                    "The next screen will prompt the user to name the virtual machine"+ 
                                     "and choose the destination along with the operating system and version", 
                                     VMName, 
                                     "Name the Virtual Machine", 
@@ -36,6 +37,18 @@ const VirtualBoxSection = () => {
                                     VMMemorySize, 
                                     "Choose desired memory size", 
                                     "A prompt asking the user to choose the memory size for the virtual machine")
+    
+    const HDDFileType = addingInfo("Hard Disk File Type",
+                                    "Choose the desired hard disk file type",
+                                    VMHardDiskType,
+                                    "Hard Disk file type",
+                                    "A prompt asking the user to choose between VDI, VHD, and VMDK hard disk file types")
+
+    const HDDFileSize = addingInfo("Hard Disk File Location & Size",
+                                    "Choose the desired location and size. It is recommmended to have a minimum of 16 GB for Windows. Then click 'Create'",
+                                    VMHardSize,
+                                    "VM Hard Disk file location",
+                                    "A prompt asking the user to choose between a fixed or dynamically fixed hard disk")
     return (
         <div className="bg_white">
             <div className='template_container'>
@@ -70,15 +83,7 @@ const VirtualBoxSection = () => {
                     />
                 </div>
 
-                <p>Choose the desired hard disk file type</p>
-
-                <div className='image_with_caption'>
-                    <ImageItem
-                        src={VMHardDiskType}
-                        text="Hard Disk file type"
-                        alt='A prompt asking the user to choose between VDI, VHD, and VMDK hard disk file types'
-                    />
-                </div>
+                {HDDFileType}
                 
                 <p>Choose the way you want the storage size to be handled</p>
                 
@@ -90,17 +95,8 @@ const VirtualBoxSection = () => {
                     />
                 </div>
                 
-                <h4>Choose the file location and size</h4>
-                
-                <div className='image_with_caption'>
-                    <ImageItem
-                        src={VMHardSize}
-                        text="VM Hard Disk file location"
-                        alt='A prompt asking the user to select the hard disk size and location'
-                    />
-                </div>
+                {HDDFileSize}
 
-                <p>Click Create</p>
 
                 <h4>Now to start the virtual machine</h4>
 
