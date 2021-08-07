@@ -1,0 +1,32 @@
+:root {
+  --primary-dark: rgb(41, 50, 65);
+}
+
+.inner_container {
+  margin-top: 1em;
+  width: 95%;
+  display: flex;
+  margin-inline: auto;
+}
+
+.testing {
+  display: flex;
+  list-style-type: none;
+}
+
+.test {
+  width: fit-content;
+  padding: 0.5em;
+  margin-right: 0.1em;
+  transition: all ease-in-out 0.2s;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.test:hover {
+  color: black;
+}
+
+.bg-black {
+  border-bottom: 2px solid var(--primary-dark);
+  color: black;
+}
