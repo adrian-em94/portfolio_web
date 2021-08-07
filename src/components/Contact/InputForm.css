@@ -19,6 +19,14 @@ form {
   font-weight: bolder;
 }
 
+.successMessage {
+  font-size: 0.75rem;
+  color: rgb(89, 230, 89);
+  padding-bottom: 0.5rem;
+  margin-top: -0.5rem;
+  font-weight: bolder;
+}
+
 .submit-btn {
   margin-top: 0.5em;
   color: #fff;

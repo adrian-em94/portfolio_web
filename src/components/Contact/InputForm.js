@@ -8,7 +8,8 @@ const initialState = {
     email: "",
     proposal: "",
     nameError: "",
-    proposalError: ""
+    proposalError: "",
+    success: ""
 }
 
 const InputForm = () => {
@@ -60,6 +61,10 @@ const InputForm = () => {
             `${process.env.REACT_APP_EMAILJS_USER_ID}`
             ).then(res=>{
                 console.log(res)
+                if(res.text === "OK"){
+                    const success = "Successfully Sent";
+                    setNewUser({...newUser, success})
+                }  
             }).catch(err=> console.log(err))
             
             //reset state
@@ -90,6 +95,9 @@ const InputForm = () => {
                     <div className="form-floating mb-3">
                         <textarea className="form-control" name="proposal" value={newUser.proposal} onChange={handleOnChange} placeholder="How can I help you?"  style={{height: "100px"}}/>
                         <label htmlFor="floatingTextarea2">How can I help you?</label>
+                    </div>
+                    <div className="successMessage">
+                        {newUser.success}    
                     </div>  
 
                     <button className='submit-btn' type='submit' value='Submit'>Submit</button> 
