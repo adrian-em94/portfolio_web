@@ -1,3 +1,7 @@
+:root {
+  --main-dark: rgb(41, 50, 65);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Comfortaa", cursive;
@@ -30,10 +34,18 @@
 
 .home_btns {
   margin-top: 1rem;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1em;
+  color: var(--main-dark);
+  border: var(--main-dark) 2px solid;
+  border-radius: 1em;
 }
 
-.home_btns .btn {
-  margin: 0.2em;
+.home_btns:hover {
+  border: #fff 2px solid;
+  background-color: var(--main-dark);
+  color: #fff;
 }
 
 @media screen and (max-width: 60rem) {
