@@ -11,6 +11,7 @@
   margin-top: 1em;
   width: 80%;
   margin-bottom: 10em;
+  line-height: 2rem;
 }
 
 .template_container > h1 {
@@ -19,6 +20,10 @@
 }
 
 .template_container > h2 {
+  margin-bottom: 1rem;
+}
+
+.template_container > h3 {
   margin-bottom: 1rem;
 }
 
