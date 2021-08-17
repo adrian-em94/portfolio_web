@@ -15,7 +15,7 @@
   margin-top: 3em;
   margin-bottom: 3em;
   padding-bottom: 80px;
-  color: #fff;
+  color: #000;
 }
 
 .right_img_split {
@@ -46,7 +46,7 @@ section {
 }
 
 .bg__secondary {
-  background-color: var(--primary-less-dark);
+  background-color: #fff;
 }
 
 .second_img_left {
