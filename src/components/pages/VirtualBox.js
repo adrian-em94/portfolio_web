@@ -1,13 +1,12 @@
-import React from 'react'
-import VirtualBoxSection from '../VirtualBoxSection'
+import React from "react";
+import VirtualBoxSection from "../VirtualBoxSection";
 
-function VirtualBox() {
-    return (
-        <>
-            <VirtualBoxSection />
-        </>
-
-    )
-}
+const VirtualBox = () => {
+  return (
+    <>
+      <VirtualBoxSection />
+    </>
+  );
+};
 
 export default VirtualBox;
