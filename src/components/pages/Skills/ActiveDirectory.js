@@ -21,10 +21,12 @@ const ActiveDirectory = () => {
         </h1>
 
         <p>
-          Open Server Manager {">"} Go to <strong>"Manage"</strong> {">"} Add
-          Roles and Features
-          <br />
-          Hit Next
+          Open Server Manager {">"} Go to <b>"Manage"</b> {">"} Add Roles and
+          Features
+        </p>
+
+        <p>
+          Hit <b>"Next"</b>
         </p>
 
         <div className="image_with_caption">
@@ -35,11 +37,13 @@ const ActiveDirectory = () => {
           />
         </div>
 
-        <h4>Installation Type</h4>
+        <h3>Installation Type</h3>
         <p>
-          Click <strong>"Role-based or Feature-based installation" </strong>
-          <br />
-          Then hit <strong>"Next"</strong>
+          Click <b>"Role-based or Feature-based installation" </b>
+        </p>
+
+        <p>
+          Then hit <b>"Next"</b>
         </p>
 
         <div className="image_with_caption">
@@ -50,13 +54,16 @@ const ActiveDirectory = () => {
           />
         </div>
 
-        <h4>Destination Server</h4>
+        <h3>Destination Server</h3>
         <p>
           Choose the server that you would like to add Active Directory Domain
           Services to
-          <br />
-          Then hit <strong>"Next"</strong>
         </p>
+
+        <p>
+          Then hit <b>"Next"</b>
+        </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={DestinationServer}
@@ -65,18 +72,29 @@ const ActiveDirectory = () => {
           />
         </div>
 
-        <h4>Server Roles</h4>
+        <h3>Server Roles</h3>
+
         <p>
-          Highlight <strong>"Active Directory Domain Services</strong>
-          <br />
-          Hit <strong>"Next"</strong>
-          <br />A prompt may come up warning the user that other services will
-          need to be added along with the chosen role service or features
-          <br />
+          Highlight <b>"Active Directory Domain Services</b>
+        </p>
+
+        <p>
+          Hit <b>"Next"</b>
+        </p>
+
+        <p>
+          A prompt may come up warning the user that other services will need to
+          be added along with the chosen role service or features
+        </p>
+
+        <p>
           Click <b>"Add Features"</b>
-          <br />
+        </p>
+
+        <p>
           Click <b>"Install"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={ADDSServerRole}
@@ -88,6 +106,7 @@ const ActiveDirectory = () => {
         <p>
           Click <b>"Promote this server to a domain controller"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={PromoteDomainController}
@@ -96,13 +115,17 @@ const ActiveDirectory = () => {
           />
         </div>
 
-        <h4>Deployment Configuration</h4>
+        <h3>Deployment Configuration</h3>
+
         <p>
           Choose the radio button option <b>"Add a new forest"</b> and choose a
           root domain name
-          <br />
+        </p>
+
+        <p>
           Then hit <b>"Next"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={NewForest}
@@ -111,13 +134,17 @@ const ActiveDirectory = () => {
           />
         </div>
 
-        <h4>Domain Controller Options</h4>
+        <h3>Domain Controller Options</h3>
+
         <p>
           Create a password for the Directory Services Restore Mode (DSRM) and
           retype to confirm
-          <br />
+        </p>
+
+        <p>
           Then click <b>"Next"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={AddPassword}
@@ -128,13 +155,20 @@ const ActiveDirectory = () => {
 
         <p>
           Verify the NETBIOS domain name then click <b>"Next"</b>
-          <br />
+        </p>
+
+        <p>
           For the paths page also click <b>"Next"</b>
-          <br />
+        </p>
+
+        <p>
           For the Review Options page also click <b>"Next"</b>
-          <br />
+        </p>
+
+        <p>
           For the Prerequisites Check page click <b>"Install"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={PreReqCheck}

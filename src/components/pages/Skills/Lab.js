@@ -18,9 +18,12 @@ const Lab = () => {
         <p>
           Open Control Panel {">"} View Network Status and Tasks {">"} Change
           adapter settings
-          <br />
+        </p>
+
+        <p>
           Right click on Ethernet {">"} Properties {">"} double click TCP IPv4
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={TCP}
@@ -32,9 +35,10 @@ const Lab = () => {
         <p>
           Now you must add a private IP address and default gateway alog with
           the private DNS Server
-          <br />
-          See the image below for an example
         </p>
+
+        <p>See the image below for an example</p>
+
         <div className="image_with_caption">
           <ImageItem
             src={StaticIP}
@@ -46,6 +50,7 @@ const Lab = () => {
         <p>
           In VirtualBox go to File {">"} Host Network Manager {">"} Create
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={HostNetwork}
@@ -56,10 +61,14 @@ const Lab = () => {
 
         <p>
           Then in VirtualBoxVM {">"} Device {">"} Network {">"} Network Settings
-          <br />
+        </p>
+
+        <p>
           The drop down next to <b>"Attacked to:"</b> should be{" "}
           <b>"Host-only Adapter"</b> then click <b>"OK"</b>
-          <br />
+        </p>
+
+        <p>
           Apply the same setting to both Windows Server and Windows 10 client
         </p>
 

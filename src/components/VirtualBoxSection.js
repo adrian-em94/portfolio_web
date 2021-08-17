@@ -10,11 +10,12 @@ import "../components/VirtualBoxSection.css";
 import ImageItem from "./ImageItem";
 import Option2 from "../images/Option2.png";
 import GreenCheck from "./GreenCheck/GreenCheck";
+import Accordion from "react-bootstrap/Accordion";
 
 const addingInfo = (heading, text, ImageSrc, ImageText, ImageAlt) => {
   return (
     <>
-      <h4>{heading}</h4>
+      <h3>{heading}</h3>
       <p>{text}</p>
       <div className="image_with_caption">
         <ImageItem src={ImageSrc} text={ImageText} alt={ImageAlt} />
@@ -61,21 +62,21 @@ const VirtualBoxSection = () => {
       <div className="template_container">
         <h1>Creating a Windows 10 Virtual Machine w/ Virtual Box</h1>
 
-        <h4>Download the Windows media creation tool</h4>
+        <h3>Download the Windows media creation tool</h3>
 
         <p>
           The Windows media creation tool can be found on the microsoft website
           and is necessary to download the iso file for the virtual machine
         </p>
 
-        <h4>Get the iso from the media creation tool</h4>
+        <h3>Get the iso from the media creation tool</h3>
 
         <p>
           Once the media creation tool has been downloaded locate the iso file
           for Windows 10
         </p>
 
-        <h4>Download & Install Oracle's Virtual Box</h4>
+        <h3>Download & Install Oracle's Virtual Box</h3>
 
         <p>Virtual Box can be found for free on the Oracle website</p>
 
@@ -108,68 +109,70 @@ const VirtualBoxSection = () => {
 
         {HDDFileSize}
 
-        <h4>Now to start the virtual machine</h4>
+        <h3>Now to start the virtual machine</h3>
 
-        <p>
-          Highlight the virtual machine in VirtualBox
-          <br />
-          Click start on the newly created virtual machine
-        </p>
+        <p>Highlight the virtual machine in VirtualBox</p>
 
-        <h4>Select the iso location</h4>
-        <h4>Option 1:</h4>
+        <p>Click start on the newly created virtual machine</p>
 
-        <p>
-          After hitting the start button a prompt should appear to choose the
-          location of the iso.
-          <br />
-          If it doesnt, go to option 2.
-          <br />
-          Navigate to the ISO file
-        </p>
+        <h3>Select the iso location</h3>
 
-        <div className="image_with_caption">
-          <ImageItem
-            src={IsoLocation}
-            text="Locate the Windows 10 iso"
-            alt="A prompt that asks the user select the location of the iso file"
-          />
+        <div className="accordion">
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>Option #1</Accordion.Header>
+              <Accordion.Body>
+                <p>
+                  After hitting the start button a prompt should appear to
+                  choose the location of the iso. If it doesnt, go to option 2.
+                </p>
+
+                <p>Navigate to the ISO file</p>
+                <div className="image_with_caption">
+                  <ImageItem
+                    src={IsoLocation}
+                    text="Locate the Windows 10 iso"
+                    alt="A prompt that asks the user select the location of the iso file"
+                  />
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>Option #2</Accordion.Header>
+              <Accordion.Body>
+                <p>Highlight the virtual machine in virtual box</p>
+
+                <p>Click Settings {">"} Storage</p>
+
+                <div className="image_with_caption">
+                  <ImageItem
+                    src={Option2}
+                    text="Virtual Box VM Settings"
+                    alt="Virtal Box Settings"
+                  />
+                </div>
+
+                <p>Highlight the Empty Disk</p>
+
+                <p>
+                  Then Click the disk to the right of <b>"Optical Drive"</b>
+                </p>
+
+                <p>
+                  Navigate to the ISO file then click <b>"OK"</b>
+                </p>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
 
-        <h4>Option 2:</h4>
+        <h3>Now to start the virtual machine</h3>
 
-        <p>
-          Highlight the virtual machine in virtual box
-          <br />
-          Click Settings {">"} Storage
-        </p>
+        <p>Highlight the virtual machine in VirtualBox</p>
 
-        <div className="image_with_caption">
-          <ImageItem
-            src={Option2}
-            text="Virtual Box VM Settings"
-            alt="Virtal Box Settings"
-          />
-        </div>
+        <p>Click start on the newly created virtual machine</p>
 
-        <p>
-          <br />
-          Highlight the Empty Disk
-          <br />
-          Then Click the disk to the right of 'Optical Drive'
-          <br />
-          Navigate to the ISO file then click OK
-        </p>
-
-        <h4>Now to start the virtual machine</h4>
-
-        <p>
-          Highlight the virtual machine in VirtualBox
-          <br />
-          Click start on the newly created virtual machine
-        </p>
-
-        <h4>Windows Setup</h4>
+        <h3>Windows Setup</h3>
         <p>
           Accept the license terms and go through the regular windows setup to
           complete and use the virtual machine for Windows 10

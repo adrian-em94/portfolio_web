@@ -18,10 +18,13 @@ const ADAccountCreation = () => {
         <p>
           Open Server Manager {">"} Tools {">"} Active Directory Users and
           Computers
-          <br />
-          On the left navigation pane, inside the domain find the users folder
+        </p>
+
+        <p>
+          On the left navigation pane, inside the domain, find the users folder
           and highlight it
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={UsersComputers}
@@ -33,6 +36,7 @@ const ADAccountCreation = () => {
         <p>
           Then click <b>"Action"</b> {">"} New User
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={NewUser}
@@ -44,6 +48,7 @@ const ADAccountCreation = () => {
         <p>
           Add a password, then click <b>"Next"</b>
         </p>
+
         <div className="image_with_caption">
           <ImageItem
             src={AddPassword}
