@@ -46,6 +46,12 @@ const SkillSection = () => {
               label="Shared Folder"
               path="/SharedFolder"
             />
+            <CardItem
+              src={VBox}
+              text="Remote Desktop with Remote Desktop Connection & C$"
+              label="Remote Desktop"
+              path="/Remote"
+            />
           </ul>
         </div>
       </div>
