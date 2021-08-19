@@ -13,6 +13,7 @@ import ActiveDirectory from "./components/pages/Skills/ActiveDirectory";
 import ADAccountCreation from "./components/pages/Skills/ADAccountCreation";
 import Lab from "./components/pages/Skills/Lab";
 import SharedFolder from "./components/pages/Skills/SharedFolder";
+import Remote from "./components/pages/Skills/Remote";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/ADAccountCreation" component={ADAccountCreation} />
           <Route path="/Lab" component={Lab} />
           <Route path="/SharedFolder" component={SharedFolder} />
+          <Route path="/Remote" component={Remote} />
         </Switch>
         <Footer />
       </Router>

@@ -4,6 +4,9 @@ import "./Cards.css";
 import VBox from "../images/virtualbox-icon.svg";
 import ADPic from "../images/microsoftad-logo.svg";
 import AddUser from "../images/AddUser.png";
+import WindowsServer from "../images/windows-server.svg";
+import sharedDrive from "../images/shared-drive.jpg";
+import RDP from "../images/rdp.png";
 
 const SkillSection = () => {
   return (
@@ -35,16 +38,22 @@ const SkillSection = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={VBox}
+              src={WindowsServer}
               text="Lab Environment w/ VirtualBox Windows Server"
               label="Lab"
               path="/Lab"
             />
             <CardItem
-              src={VBox}
+              src={sharedDrive}
               text="Mapping Shared Folder"
               label="Shared Folder"
               path="/SharedFolder"
+            />
+            <CardItem
+              src={RDP}
+              text="Remote Desktop"
+              label="RDP"
+              path="/Remote"
             />
           </ul>
         </div>
