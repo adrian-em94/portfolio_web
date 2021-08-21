@@ -14,7 +14,7 @@ const SkillSection = () => {
       <h1>Skills</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items">
+          <ul className="cards__item__fixed">
             <CardItem
               src={VBox}
               text="Virtual Box - Virtual Machine"
@@ -33,10 +33,6 @@ const SkillSection = () => {
               label="Add User"
               path="/ADAccountCreation"
             />
-          </ul>
-        </div>
-        <div className="cards__wrapper">
-          <ul className="cards__items">
             <CardItem
               src={WindowsServer}
               text="Lab Environment w/ VirtualBox Windows Server"

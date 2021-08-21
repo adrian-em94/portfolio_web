@@ -32,6 +32,14 @@ h1 {
   border-radius: 0.625em;
 }
 
+.cards__item__fixed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin: 0 1rem;
+  border-radius: 0.625em;
+}
+
 .cards__item__link {
   display: flex;
   flex-flow: column;
@@ -99,26 +107,52 @@ h1 {
   line-height: 1.5rem;
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 1024px) {
   .cards__items {
+    display: flex;
+  }
+
+  .cards__items__fixed {
     display: flex;
   }
 }
 
-@media only screen and (max-width: 64em) {
+@media only screen and (max-width: 1024px) {
   .cards__items {
     margin-bottom: 2rem;
   }
-}
 
-@media screen and (max-width: 1023px) {
+  .cards__items__fixed {
+    margin-bottom: 2rem;
+  }
+
   .cards__item__link {
     margin-bottom: 1em;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  .cards__item__fixed {
+    grid-gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .cards__item__fixed {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .cards__item__fixed {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
   }
 }
