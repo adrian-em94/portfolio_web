@@ -1,0 +1,68 @@
+:root {
+  --primary: #fff;
+  --accent: rgb(238, 108, 77);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.butt {
+  background-color: rgb(61, 90, 128);
+  padding: 0.5em 1.5em;
+  font-weight: bolder;
+  border-radius: 2em;
+  color: #fff;
+  width: fit-content;
+}
+
+.butt:hover {
+  background-color: var(--accent);
+}
+
+.butt:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1380px) {
+  .button_container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1018px) {
+  .button_container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .button_container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .button_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .butt {
+    width: 100%;
+  }
+}
