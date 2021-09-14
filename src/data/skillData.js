@@ -54,6 +54,14 @@ const data = [
     path: "/Remote",
     tag: "Remote",
   },
+  {
+    id: 7,
+    src: RDP,
+    text: "Azure - Add Custom Domain",
+    label: "Azure",
+    path: "/AZ_CustomDomain",
+    tag: "Microsoft_Azure",
+  },
 ];
 
 export default data;

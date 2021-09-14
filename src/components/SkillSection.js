@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import SkillData from "../data/skillData";
+import SkillData from "../data/SkillData";
 import SkillMenuItems from "./pages/Skills/SkillMenuItems";
 import Button from "../components/Buttons/Button";
 
