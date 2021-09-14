@@ -4,6 +4,7 @@ import AddUser from "../images/AddUser.png";
 import WindowsServer from "../images/windows-server.svg";
 import sharedDrive from "../images/shared-drive.jpg";
 import RDP from "../images/rdp.png";
+import Azure from "../images/Azure.png";
 
 const data = [
   {
@@ -56,7 +57,7 @@ const data = [
   },
   {
     id: 7,
-    src: RDP,
+    src: Azure,
     text: "Azure - Add Custom Domain",
     label: "Azure",
     path: "/AZ_CustomDomain",
