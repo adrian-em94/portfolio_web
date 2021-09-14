@@ -63,6 +63,14 @@ const data = [
     path: "/AZ_CustomDomain",
     tag: "Microsoft_Azure",
   },
+  {
+    id: 8,
+    src: Azure,
+    text: "Azure - Create Resource Group",
+    label: "Azure",
+    path: "/AZ_CreateResourceGroup",
+    tag: "Microsoft_Azure",
+  },
 ];
 
 export default data;

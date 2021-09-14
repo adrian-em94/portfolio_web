@@ -15,6 +15,7 @@ import Lab from "./components/pages/Skills/Lab";
 import SharedFolder from "./components/pages/Skills/SharedFolder";
 import Remote from "./components/pages/Skills/Remote";
 import AZ_CustomDomain from "./components/pages/Skills/AZ_CustomDomain";
+import AZ_CreateResourceGroup from "./components/pages/Skills/AZ-CreateResourceGroup";
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
           <Route path="/SharedFolder" component={SharedFolder} />
           <Route path="/Remote" component={Remote} />
           <Route path="/AZ_CustomDomain" component={AZ_CustomDomain} />
+          <Route
+            path="/AZ_CreateResourceGroup"
+            component={AZ_CreateResourceGroup}
+          />
         </Switch>
         <Footer />
       </Router>
