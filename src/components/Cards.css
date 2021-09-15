@@ -38,6 +38,12 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 0.625em;
+  width: 100%;
+  background-color: var(--primary-light-blue);
+}
+
+.cards__item:hover {
+  background-color: var(--primary-less-less-dark);
 }
 
 .cards__item__fixed {
@@ -183,6 +189,24 @@ h1 {
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .Microsoft_Azure {
+    font-size: 0.5rem;
+  }
+
+  .Remote {
+    font-size: 0.5rem;
+  }
+
+  .Active_Directory {
+    font-size: 0.5rem;
+  }
+
+  .Virtual_Machine {
+    font-size: 0.5rem;
   }
 }
 
